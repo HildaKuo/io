@@ -6806,7 +6806,9 @@ a:hover > .nk-icon-search:after {
 }
 .nk-blog-isotope .nk-blog-post .nk-post-text {
   margin-top: 12px;
-  margin-bottom: 0
+  margin-bottom: 0;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .nk-blog-isotope-2 .nk-blog-post {
   position: relative;
