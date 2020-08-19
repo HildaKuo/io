@@ -294,8 +294,8 @@ input[type=search] {
   font-weight: 300
 }
 .display-4 {
-  font-size: 3.5rem;
-  font-weight: 300
+  font-size: 0.5rem;
+  font-weight: 150
 }
 hr {
   margin-top: 1rem;
@@ -3940,9 +3940,9 @@ b, strong {
   margin-bottom: 1rem
 }
 .display-1, .display-2, .display-3, .display-4, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-font-family: 'Open Sans', sans-serif;
-  color: #171717;
-  font-weight: 700
+    font-family: 'Open Sans', sans-serif;
+    color: #171717;
+    font-weight: 700;
 }
 .display-1 {
   font-size: 4.1rem
@@ -3957,7 +3957,8 @@ font-family: 'Open Sans', sans-serif;
   font-size: 2.6rem
 }
 .h2, h2 {
-  font-size: 2.1rem
+    font-size: 2.1rem;
+    text-align: center;
 }
 .h3, h3 {
   font-size: 1.69rem
@@ -4093,8 +4094,12 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .nk-img{
-	background-image:url("../images/recycle/bg.png")
+	text-align: center;
+	background-image: url("../images/recycle/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+	
 @media (max-width:543px) {
   .nk-img-fit-xs-down {
     max-width: 100%
@@ -4138,9 +4143,7 @@ font-family: 'Open Sans', sans-serif;
 }
 .align-center {
   text-align: center;
-	background-image: url("../images/recycle/bg.png");
-	background-repeat: no-repeat;
-	background-size: cover;
+
 }
   
 .align-right {
